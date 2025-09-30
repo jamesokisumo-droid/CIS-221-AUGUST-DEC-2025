@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .showcase {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background: #fff;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 10px;
+      background: #fafafa;
+      width: 30%;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .offers {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #222;
+      color: white;
+    }
+    .benefits {
+      background: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Fashion Store</h1>
+    <p>Your one-stop shop for trendy outfits!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">Kids</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="showcase">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Men's Fashion">
+      <h3>Men's Collection</h3>
+      <p>Stylish suits, casual wear, and accessories.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Women's Fashion">
+      <h3>Women's Collection</h3>
+      <p>Trendy dresses, handbags, and footwear.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Kids' Fashion">
+      <h3>Kids' Collection</h3>
+      <p>Cute outfits, shoes, and school accessories.</p>
+    </div>
+  </section>
+
+  <section class="offers">
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Sale Event</th>
+        <th>Date</th>
+        <th>Discount</th>
+      </tr>
+      <tr>
+        <td>Black Friday</td>
+        <td>25th November</td>
+        <td>Up to 70% Off</td>
+      </tr>
+      <tr>
+        <td>Christmas Sale</td>
+        <td>20th December</td>
+        <td>Buy 1 Get 1 Free</td>
+      </tr>
+      <tr>
+        <td>New Year Sale</td>
+        <td>1st January</td>
+        <td>Flat 50% Off</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="benefits">
+    <h2>Why Shop With Us?</h2>
+    <ul>
+      <li>High-quality and trendy fashion at affordable prices.</li>
+      <li>Free delivery on orders above $50.</li>
+      <li>Secure payment options.</li>
+      <li>Easy returns and exchanges.</li>
+      <li>Exclusive offers for loyal customers.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
